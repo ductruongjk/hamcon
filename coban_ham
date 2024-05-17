@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+//khai bao nguyen mau ham 
+void xin_chao();
+int tong(int n); 
+
+    int tong(int n){
+    	int s; 
+	    s= n*(n+1)/2;   
+	    return s; 
+   }
+	   
+	void xin_chao(){
+		printf("hello.");
+		printf("\nxin chao."); 
+		printf("\n%d",tong(100)); 
+	}
+	
+	
+	int main(){
+		xin_chao();//function call:goi ham 
+	} 
+	
